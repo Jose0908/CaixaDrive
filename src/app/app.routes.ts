@@ -17,7 +17,8 @@ export const routes: Routes = [
         resolve: {
             veiculos: consorcioResolver
         }
-    }    { path: 'perfil', component: PerfilComponent, canActivate: [AuthGuard] },
+    },
+    { path: 'perfil', component: PerfilComponent, canActivate: [AuthGuard] },
     { path: '**', redirectTo: '/login' }
 
 ]

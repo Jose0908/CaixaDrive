@@ -21,7 +21,7 @@ export class PerfilComponent {
   ngOnInit() {
     this.veiculoService.getVeiculos().subscribe();
   }
-  
+
   usuario = computed(() => this.userService.usuarioLogado());
 
   reservas() {
@@ -35,8 +35,6 @@ export class PerfilComponent {
     const reservas = this.reservas()
       .filter((r: { userId: number; }) => r.userId === user.id)
       .map((r: { veiculoId: number; }) => r.veiculoId);
-
-    console.log(this.veiculoService.getVeiculosSnapshot());
 
     return this.veiculoService.getVeiculosSnapshot()
       .filter(v => reservas.includes(v.id));
