@@ -10,18 +10,18 @@
     },
     {
       "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "username": "janesmith",
-      "password": "abcd",
+      "name": "Wellington Silva",
+      "email": "wellington@example.com",
+      "username": "well",
+      "password": "1234",
       "role": "standard",
       "createdAt": "2024-01-20T14:45:00Z"
     },
     {
       "id": 3,
-      "name": "Bob Johnson",
-      "email": "bob@example.com",
-      "username": "bobjohnson",
+      "name": "David Gilmour",
+      "email": "david@example.com",
+      "username": "davidgilmour",
       "password": "vip123",
       "role": "vip",
       "createdAt": "2024-02-05T09:15:00Z"

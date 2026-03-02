@@ -12,7 +12,7 @@
     </p>
 
     <button (click)="reservarVeiculo()">
-      Reservar Veículo
+      {{ jaReservado() ? 'Remover Reserva' : 'Reservar Veículo' }}
     </button>
   </div>
 </div>

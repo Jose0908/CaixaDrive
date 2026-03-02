@@ -1,7 +1,6 @@
 <div class="catalogo">
   <app-veiculo-card
     *ngFor="let v of veiculos()"
-    [veiculo]="v"
-    (reservar)="reservar($event)">
+    [veiculo]="v">
   </app-veiculo-card>
 </div>

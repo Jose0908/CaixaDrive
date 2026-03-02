@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "modelo": "Toyota Corolla 2.0 XEi 2024",
-        "preco": 158990,
-        "imagem": "assets/corolla.png"
+        "modelo": "Tesla Model 3 2024",
+        "preco": 329990,
+        "imagem": "assets/model3.jpg"
     },
     {
         "id": 2,
-        "modelo": "Honda Civic Touring 2024",
-        "preco": 245900,
-        "imagem": "assets/civic.png"
+        "modelo": "BYD Dolphin 2024",
+        "preco": 149800,
+        "imagem": "assets/dolphin.webp"
     },
     {
         "id": 3,
-        "modelo": "Chevrolet Onix 1.0 Turbo 2024",
-        "preco": 102990,
-        "imagem": "assets/onix.webp"
+        "modelo": "BYD Seal 2024",
+        "preco": 296800,
+        "imagem": "assets/seal.webp"
     },
     {
         "id": 4,
-        "modelo": "Hyundai HB20 Comfort 1.0 2024",
-        "preco": 89990,
-        "imagem": "assets/hb20.webp"
+        "modelo": "Volvo EX30 2024",
+        "preco": 229950,
+        "imagem": "assets/ex30.webp"
     },
     {
         "id": 5,
-        "modelo": "Jeep Compass Longitude 2024",
-        "preco": 186990,
-        "imagem": "assets/compass.jpeg"
+        "modelo": "GWM Ora 03 Skin 2024",
+        "preco": 150000,
+        "imagem": "assets/ora03.png"
     },
     {
         "id": 6,
-        "modelo": "Volkswagen T-Cross Highline 2024",
-        "preco": 169990,
-        "imagem": "assets/tcross.webp"
+        "modelo": "BMW iX1 2024",
+        "preco": 399950,
+        "imagem": "assets/ix1.webp"
     },
     {
         "id": 7,
-        "modelo": "Fiat Pulse Impetus Turbo 2024",
-        "preco": 134990,
-        "imagem": "assets/pulse.png"
+        "modelo": "Renault Kwid E-Tech 2024",
+        "preco": 139990,
+        "imagem": "assets/kwide.webp"
     },
     {
         "id": 8,
-        "modelo": "Ford Ranger XLT 2024",
-        "preco": 239990,
-        "imagem": "assets/ranger.jpg"
+        "modelo": "Chevrolet Bolt EUV 2024",
+        "preco": 259990,
+        "imagem": "assets/bolt.png"
     },
     {
         "id": 9,
-        "modelo": "BMW 320i GP 2024",
-        "preco": 289950,
-        "imagem": "assets/bmw320i.jpg"
+        "modelo": "Nissan Leaf 2024",
+        "preco": 298990,
+        "imagem": "assets/leaf.webp"
     },
     {
         "id": 10,
-        "modelo": "Audi A3 Sedan Performance 2024",
-        "preco": 279990,
-        "imagem": "assets/a3.jpg"
+        "modelo": "Porsche Taycan 2024",
+        "preco": 899000,
+        "imagem": "assets/taycan.webp"
     }
 ]
