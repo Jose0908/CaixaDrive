@@ -1,6 +1,26 @@
-<div class="catalogo">
-  <app-veiculo-card
-    *ngFor="let v of veiculos"
-    [veiculo]="v">
-  </app-veiculo-card>
-</div>
+<section class="catalogo-wrapper">
+
+  <div class="catalogo-header">
+    <h1>Catálogo de Veículos Elétricos</h1>
+    <p>
+      Confira nossa seleção exclusiva de carros 100% elétricos.
+      Tecnologia, economia e sustentabilidade em um só lugar.
+    </p>
+
+    <div class="search-box">
+      <input
+        type="text"
+        placeholder="Pesquisar modelo..."
+        [(ngModel)]="termoPesquisa"
+      />
+    </div>
+  </div>
+
+  <div class="catalogo">
+    <app-veiculo-card
+      *ngFor="let v of veiculosFiltrados()"
+      [veiculo]="v">
+    </app-veiculo-card>
+  </div>
+
+</section>
