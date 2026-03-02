@@ -1,0 +1,18 @@
+<div class="card">
+  <img 
+    [src]="veiculo().imagem" 
+    [alt]="veiculo().modelo" 
+    class="imagem">
+
+  <div class="card-body">
+    <h2>{{ veiculo().modelo }}</h2>
+
+    <p class="preco">
+      {{ veiculo().preco | currency:'BRL':'symbol':'1.0-0' }}
+    </p>
+
+    <button (click)="reservarVeiculo()">
+      Reservar Veículo
+    </button>
+  </div>
+</div>

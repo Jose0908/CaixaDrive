@@ -1,0 +1,7 @@
+<div class="catalogo">
+  <app-veiculo-card
+    *ngFor="let v of veiculos()"
+    [veiculo]="v"
+    (reservar)="reservar($event)">
+  </app-veiculo-card>
+</div>

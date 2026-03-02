@@ -1,0 +1,87 @@
+/* Centraliza a tela */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card branco */
+.login-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4e73df;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(78, 115, 223, 0.2);
+}
+
+/* Botão */
+.login-button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4e73df;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #2e59d9;
+}
+
+/* Mensagens */
+.form-message {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success {
+  color: #1cc88a;
+}
+
+.error {
+  color: #e74a3b;
+}

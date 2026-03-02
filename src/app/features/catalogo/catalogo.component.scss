@@ -1,0 +1,19 @@
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .catalogo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .catalogo {
+    grid-template-columns: 1fr;
+  }
+}
